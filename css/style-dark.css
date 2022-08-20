@@ -17,6 +17,7 @@ body {
 	font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
+/*changed*/
 a {
 	color: #eee;
 	text-decoration: none;
@@ -298,12 +299,14 @@ label:focus,
 	margin: 8px 0px 0px 0px;
 }
 
+/* changed */
 .header {
 	background: var(--clp-secondary);
 	height: 75px;
 	border-bottom: 1px solid var(--clp-border);
 }
 
+/* changed */
 .header .logo {
 	padding: 20px 0px 0px 20px;
 	margin: 0px 20px 0px 0px;
@@ -315,6 +318,7 @@ label:focus,
 	justify-content: space-between;
 }
 
+/*changed*/
 .header .nav-link-container a {
 	color: #eee;
 	margin: 0px 0px 0px 10px;
@@ -345,6 +349,7 @@ label:focus,
 	line-height: 75px;
 }
 
+/* changed */
 .header .navbar-right > ul > li > a {
 	display: block;
 	color: #eee;
@@ -387,6 +392,7 @@ label:focus,
 	margin: 20px 0px;
 }
 
+/* changed */
 .page-header .page-title h1 {
 	font-size: 30px;
 	color: #eee;
@@ -401,16 +407,18 @@ label:focus,
 .card .alert {
 	margin-bottom: 0;
 }
-
+/*changed*/
 .table td,
 .table thead th {
 	border-bottom: 1px solid var(--clp-border);
 }
 
+/*changed*/
 .table > :not(:last-child) > :last-child > * {
 	border-bottom-color: #404040;
 }
 
+/*changed*/
 .table thead th {
 	background: var(--clp-secondary);
 	color: #eee;
@@ -473,13 +481,13 @@ label:focus,
 }
 
 .tab-container {
-	border-radius: 5px;
-	border: 1px solid var(--clp-border);
-	background: var(--clp-secondary);
+	border: 1px solid #e2e2e2;
+	background: #ffffff;
 	margin: 0px 0px 30px 0px;
 }
 
 .tab-container ul {
+	border: 0px solid red;
 	padding: 0px 20px;
 }
 
@@ -490,13 +498,12 @@ label:focus,
 
 .tab-container ul li a {
 	padding: 20px 20px;
-	color: #eee;
+	color: #666666;
 }
 
 .tab-container ul li.active a,
 .tab-container ul li.active a:hover {
-	color: #fff;
-	font-weight: 800;
+	color: #000000;
 	border-bottom: 3px solid #0078d4;
 }
 
@@ -587,6 +594,7 @@ label.required:after {
 	color: var(--clp-border);
 }
 
+/* changed */
 .card .card-body-no-padding .table tr {
 	color: #aeaeae !important;
 }
@@ -596,8 +604,8 @@ label.required:after {
 }
 
 .card .card-footer {
-	background: var(--clp-secondary);
-	padding: 15px;
+	background: #ffffff;
+	padding: 25px;
 }
 
 .card .card-body .row {
@@ -685,6 +693,7 @@ a.generate-new-password:hover {
 	display: none;
 }
 
+/*changed*/
 .footer {
 	background: var(--clp-secondary);
 	padding: 10px 0px;
@@ -693,12 +702,14 @@ a.generate-new-password:hover {
 	text-align: center;
 }
 
+/*changed*/
 .footer ul li {
 	font-size: 14px;
 	color: #eee;
 	display: inline;
 }
 
+/*changed*/
 .footer ul li a {
 	margin: 0px 5px;
 	color: #eee;
@@ -736,4 +747,3 @@ a.generate-new-password:hover {
 	padding: 0px 10px;
 	font-size: 11px;
 }
-
