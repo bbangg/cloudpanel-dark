@@ -1,0 +1,60 @@
+.dashboard-container {
+    padding: 10px 0px;
+  }
+  
+  .dashboard-page-content-container .card {
+    margin: 0px 0px 30px 0px;
+  }
+  
+  .information-box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .information-box {
+    width: 240px;
+    margin: 15px 20px;
+  }
+  
+  .information-box h4 {
+    font-size: 18px;
+    margin: 0px 0px 5px 0px;
+    padding: 0;
+  }
+  
+  .form-select-period-of-time {
+    width: auto;
+  }
+  
+  .chart-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .chart-container .chart {
+    width: 545px;
+    margin: 20px 0px 20px 0px;
+    border: 1px solid var(--clp-border);
+    border-radius:10px;
+    box-shadow: 0 2px 4px rgb(157 161 164 / 19%);
+  }
+  
+  .chart .chart-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--clp-border);
+    padding: 15px 20px;
+  }
+  
+  .chart .chart-header h3 {
+    font-size: 18px;
+    color: #eee;
+    margin: 0;
+  }
+  
+  .chart .chart-content {
+    padding: 15px;
+  }

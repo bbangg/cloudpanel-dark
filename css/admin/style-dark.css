@@ -1,0 +1,113 @@
+.main-container {
+	display: flex;
+	padding: 0;
+}
+
+.main-content {
+	margin: 0px 30px 100px 30px;
+}
+
+.header .navbar-right > ul > li.events > a:hover,
+.header .navbar-right > ul > li.notifications > a:hover {
+	color: #0078d4;
+}
+
+.header .navbar-right > ul > li.notifications {
+	position: relative;
+}
+
+.header .navbar-right > ul > li.notifications > a > .badge {
+	top: 25px;
+	left: 45px;
+	background: #cc0000;
+}
+
+.header-instance-information-container {
+	/*display: flex;
+    justify-content: space-between; */
+}
+
+.header-instance-information-container a.dashboard {
+	color: #aaaaaa;
+	font-weight: 700;
+	font-size: 16px;
+	margin: 28px 0px 0px 0px;
+}
+
+.header-instance-information-container a.dashboard:hover {
+	color: #0078d4;
+}
+
+.header-instance-information-container ul {
+	padding: 28px 0px 0px 0px;
+	float: right;
+}
+
+.header-instance-information-container ul li {
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+	font-size: 14px;
+}
+
+.header-instance-information-container ul li a {
+	color: #6c757d;
+}
+
+.header-instance-information-container ul li a:hover {
+	color: #0a58ca;
+}
+
+.header-instance-information-container ul li:last-child {
+	margin: 0;
+}
+
+.header-instance-information-container ul li strong {
+	color: #aaaaaa;
+	margin: 0px 2px 0px 0px;
+}
+
+.header-instance-information-container ul li span {
+	color: #6c757d;
+}
+
+.dropdown-menu-navbar-top {
+	line-height: normal;
+}
+
+.sidebar {
+	width: 235px;
+	flex: 0 0 235px;
+	border-right: 1px solid var(--clp-border);
+	background: var(--clp-secondary);
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	min-height: 100vh;
+}
+
+.sidebar ul li a {
+	padding: 8px 0px 8px 20px;
+	border-left: 3px solid transparent;
+	font-weight: 400;
+	display: block;
+}
+
+.sidebar ul li a:hover {
+	color: #333333;
+	background: #ebebeb;
+	border-left: 3px solid #0078d4;
+}
+
+.sidebar ul li.active a {
+	border-left: 3px solid #0078d4;
+	color: #fff;
+	background: #454545;
+	font-weight: 900;
+}
+
+.back-to-sites {
+	margin: 15px 0px 15px 20px;
+}
+
+.back-to-sites svg {
+	margin: -2px 2px 0px 0px;
+}
