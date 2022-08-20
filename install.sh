@@ -1,12 +1,12 @@
 # backup for bootstrap.min.css
-mv /home/clp/htdocs/app/files/public/assets/css/bootstrap.min.css /home/clp/htdocs/app/files/public/assets/css/bootstrap.min.css.bak
+cp /home/clp/htdocs/app/files/public/assets/css/bootstrap.min.css /home/clp/htdocs/app/files/public/assets/css/bootstrap.min.css.bak
 
 # move fles
-mv css/admin/style-dark.css /home/clp/htdocs/app/files/public/assets/css/admin/style-dark.css
-mv css/frontend/dashboard-dark.css /home/clp/htdocs/app/files/public/assets/css/frontend/dashboard-dark.css
-mv css/bootstrap.min.css /home/clp/htdocs/app/files/public/assets/css/bootstrap.min.css
-mv css/style-dark.css /home/clp/htdocs/app/files/public/assets/css/style-dark.css
-mv images/logo-dark.svg /home/clp/htdocs/app/files/public/assets/images/logo-dark.svg
+cp css/admin/style-dark.css /home/clp/htdocs/app/files/public/assets/css/admin/style-dark.css
+cp css/frontend/dashboard-dark.css /home/clp/htdocs/app/files/public/assets/css/frontend/dashboard-dark.css
+cp css/bootstrap.min.css /home/clp/htdocs/app/files/public/assets/css/bootstrap.min.css
+cp css/style-dark.css /home/clp/htdocs/app/files/public/assets/css/style-dark.css
+cp images/logo-dark.svg /home/clp/htdocs/app/files/public/assets/images/logo-dark.svg
 
 find /home/clp/htdocs/app/files/templates/Admin/layout.html.twig -type f -exec sed -i 's/\/admin\/style\.css/\/admin\/style-dark\.css/g' {} \;
 find /home/clp/htdocs/app/files/templates/Admin/layout.html.twig -type f -exec sed -i 's/\/css\/style\.css/\/css\/style-dark\.css/g' {} \;
