@@ -16,7 +16,9 @@ find /home/clp/htdocs/app/files/templates/Frontend/layout.html.twig -type f -exe
 find /home/clp/htdocs/app/files/templates/Frontend/Partial/header.html.twig -type f -exec sed -i 's/logo\.svg/logo-dark\.svg/g' {} \;
 find /home/clp/htdocs/app/files/templates/Frontend/Dashboard/index.html.twig -type f -exec sed -i 's/dashboard\.css/dashboard-dark\.css/g' {} \;
 
-find /home/clp/htdocs/app/files/templates/Frontend/Dashboard/index.html.twig -type f -exec sed -i 's/chart\: {\n/chart\: { backgroundColor: \"#353535\",/g' {} \;
+# avoid duplicate replacement
+find /home/clp/htdocs/app/files/templates/Frontend/Dashboard/index.html.twig -type f -exec sed -i 's/chart\: { backgroundColor: \"#353535\",/chart\: {/g' {} \;
+find /home/clp/htdocs/app/files/templates/Frontend/Dashboard/index.html.twig -type f -exec sed -i 's/chart\: {/chart\: { backgroundColor: \"#353535\",/g' {} \;
 
 # removing cache
 rm /home/clp/htdocs/app/files/var/cache/prod/twig/* -rf
