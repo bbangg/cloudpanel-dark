@@ -7,3 +7,6 @@ find /home/clp/htdocs/app/files/templates/Frontend/layout.html.twig -type f -exe
 find /home/clp/htdocs/app/files/templates/Frontend/Partial/header.html.twig -type f -exec sed -i 's/logo-dark\.svg/logo\.svg/g' {} \;
 find /home/clp/htdocs/app/files/templates/Frontend/Dashboard/index.html.twig -type f -exec sed -i 's/dashboard-dark\.css/dashboard\.css/g' {} \;
 find /home/clp/htdocs/app/files/templates/Frontend/Dashboard/index.html.twig -type f -exec sed -i 's/chart\: { backgroundColor: \"#353535\",/chart\: {/g' {} \;
+
+# removing cache
+rm /home/clp/htdocs/app/files/var/cache/prod/twig/* -rf
