@@ -619,7 +619,7 @@ label.required:after {
 
 .card .card-form {
 	padding: 20px;
-	border-bottom: 1px solid #eaeaea;
+	border-bottom: 1px solid var(--clp-border);
 }
 
 .card .card-form .card-form-header {
