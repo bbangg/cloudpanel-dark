@@ -4,6 +4,7 @@ cp /home/clp/htdocs/app/files/public/assets/css/bootstrap.min.css /home/clp/htdo
 # move fles
 cp css/admin/style-dark.css /home/clp/htdocs/app/files/public/assets/css/admin/style-dark.css
 cp css/frontend/dashboard-dark.css /home/clp/htdocs/app/files/public/assets/css/frontend/dashboard-dark.css
+cp css/frontend/login-dark.css /home/clp/htdocs/app/files/public/assets/css/frontend/login-dark.css
 cp css/bootstrap.min.css /home/clp/htdocs/app/files/public/assets/css/bootstrap.min.css
 cp css/style-dark.css /home/clp/htdocs/app/files/public/assets/css/style-dark.css
 cp images/logo-dark.svg /home/clp/htdocs/app/files/public/assets/images/logo-dark.svg
