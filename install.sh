@@ -11,6 +11,7 @@ cp images/logo-dark.svg /home/clp/htdocs/app/files/public/assets/images/logo-dar
 find /home/clp/htdocs/app/files/templates/Admin/layout.html.twig -type f -exec sed -i 's/\/admin\/style\.css/\/admin\/style-dark\.css/g' {} \;
 find /home/clp/htdocs/app/files/templates/Admin/layout.html.twig -type f -exec sed -i 's/\/css\/style\.css/\/css\/style-dark\.css/g' {} \;
 find /home/clp/htdocs/app/files/templates/Admin/Partial/header.html.twig -type f -exec sed -i 's/logo\.svg/logo-dark\.svg/g' {} \;
+find /home/clp/htdocs/app/files/templates/Frontend/Login/layout.html.twig -type f -exec sed -i 's/\/frontend\/login\.css/\/frontend\/login-dark\.css/g' {} \;
 find /home/clp/htdocs/app/files/templates/Frontend/Login/layout.html.twig -type f -exec sed -i 's/\/css\/style\.css/\/css\/style-dark\.css/g' {} \;
 find /home/clp/htdocs/app/files/templates/Frontend/layout.html.twig -type f -exec sed -i 's/\/css\/style\.css/\/css\/style-dark\.css/g' {} \;
 find /home/clp/htdocs/app/files/templates/Frontend/Partial/header.html.twig -type f -exec sed -i 's/logo\.svg/logo-dark\.svg/g' {} \;

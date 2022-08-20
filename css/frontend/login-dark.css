@@ -1,0 +1,86 @@
+:root {
+	--clp-primary: #202020;
+	--clp-secondary: #303030;
+	--clp-border: #454545;
+}
+
+html,
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	background: var(--clp-primary);
+}
+
+.login-container {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.login-container .logo {
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+}
+
+.login-form-container {
+	border: 1px solid var(--clp-border);
+	border-radius: 4px;
+	padding: 25px;
+	background: var(--clp-secondary);
+	box-shadow: 0 2px 4px rgb(157 161 164 / 19%);
+}
+
+.login-form-container .form-container .row {
+	padding: 0px 0px 15px 0px;
+}
+
+.login-form-container .form-container .row:last-child {
+	padding: 0px;
+}
+
+.login-form-container h2 {
+	margin: 0px 0px 20px 0px;
+	font-size: 28px;
+}
+
+.admin-user-creation-container {
+	width: 650px;
+}
+
+.admin-user-creation-container .label-license-terms {
+	margin-left: 6px;
+	color: #707070;
+}
+
+.admin-user-creation-container .label-license-terms a {
+	text-decoration: underline;
+}
+
+.btn-login,
+.btn-create-user {
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	padding: 8px 30px;
+	line-height: 2;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0px 0px 0px;
+	font-size: 14px;
+	color: #707070;
+}
+
+.footer-container .language-selector select {
+	font-size: 12px;
+	padding: 2px 10px;
+	min-width: 100px;
+}
+
+.footer-container .language-selector label {
+	margin-right: 12px;
+}
