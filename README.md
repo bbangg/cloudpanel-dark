@@ -1,6 +1,6 @@
 ## cloudpanel-dark
 
-## Basic installation
+## Install
 
 ```bash
 cd ~
@@ -9,9 +9,21 @@ cd cloudpanel-dark
 ./install.sh
 ```
 
+## Uninstall (just reverts changes)
+
+```bash
+./uninstall.sh
+```
+
 ## Feature list
 
-[x] update cloudpanel logo for dark theme
-[x] update current css files for dark theme
-[ ] change ace editor theme
-[ ] change file manager theme
+- [x] update cloudpanel logo for dark theme
+- [x] update current css files for dark theme
+- [ ] change ace editor theme
+- [ ] change file manager theme
+
+## Screenshots
+
+![First Screenshoot](docs/first.png)
+![Second Screenshoot](docs/second.png)
+![Third Screenshoot](docs/third.png)
