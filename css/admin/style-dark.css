@@ -92,8 +92,8 @@
 }
 
 .sidebar ul li a:hover {
-	color: #333333;
-	background: #ebebeb;
+	color: #eee;
+	background: var(--clp-border);
 	border-left: 3px solid #0078d4;
 }
 

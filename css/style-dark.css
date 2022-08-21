@@ -17,7 +17,6 @@ body {
 	font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-
 a {
 	color: #eee;
 	text-decoration: none;
@@ -299,13 +298,11 @@ label:focus,
 	margin: 8px 0px 0px 0px;
 }
 
-
 .header {
 	background: var(--clp-secondary);
 	height: 75px;
 	border-bottom: 1px solid var(--clp-border);
 }
-
 
 .header .logo {
 	padding: 20px 0px 0px 20px;
@@ -317,7 +314,6 @@ label:focus,
 .header .navbar-right-container {
 	justify-content: space-between;
 }
-
 
 .header .nav-link-container a {
 	color: #eee;
@@ -348,7 +344,6 @@ label:focus,
 	height: 75px;
 	line-height: 75px;
 }
-
 
 .header .navbar-right > ul > li > a {
 	display: block;
@@ -392,7 +387,6 @@ label:focus,
 	margin: 20px 0px;
 }
 
-
 .page-header .page-title h1 {
 	font-size: 30px;
 	color: #eee;
@@ -413,11 +407,9 @@ label:focus,
 	border-bottom: 1px solid var(--clp-border);
 }
 
-
 .table > :not(:last-child) > :last-child > * {
 	border-bottom-color: #404040;
 }
-
 
 .table thead th {
 	background: var(--clp-secondary);
@@ -483,7 +475,7 @@ label:focus,
 .tab-container {
 	border: 1px solid var(--clp-border);
 	background: var(--clp-secondary);
-	border-radius:5px;
+	border-radius: 5px;
 	margin: 0px 0px 30px 0px;
 }
 
@@ -504,7 +496,7 @@ label:focus,
 .tab-container ul li.active a,
 .tab-container ul li.active a:hover {
 	color: #fff;
-	font-weight:800;
+	font-weight: 800;
 	border-bottom: 3px solid #0078d4;
 }
 
@@ -595,7 +587,6 @@ label.required:after {
 	color: var(--clp-border);
 }
 
-
 .card .card-body-no-padding .table tr {
 	color: #aeaeae !important;
 }
@@ -651,19 +642,19 @@ a.generate-new-password:hover {
 
 .multi-input-checkbox-container {
 	padding: 11px 15px;
-	background: #f0f0f0;
-	border: 1px solid #d3d3d3;
+	background: var(--clp-secondary);
+	border: 1px solid var(--clp-border);
 	border-radius: 4px;
 	display: flex;
 	flex-flow: row wrap;
 }
 
 .multi-input-checkbox-container .form-check {
-	background: #ffffff;
+	background: var(--clp-secondary);
 	padding: 3px 10px;
 	line-height: 2;
 	margin: 5px 20px 5px 0px;
-	border: 1px solid #dadada;
+	border: 1px solid var(--clp-border);
 	border-radius: 6px;
 	cursor: pointer;
 	font-weight: 600;
@@ -694,7 +685,6 @@ a.generate-new-password:hover {
 	display: none;
 }
 
-
 .footer {
 	background: var(--clp-secondary);
 	padding: 10px 0px;
@@ -703,13 +693,11 @@ a.generate-new-password:hover {
 	text-align: center;
 }
 
-
 .footer ul li {
 	font-size: 14px;
 	color: #eee;
 	display: inline;
 }
-
 
 .footer ul li a {
 	margin: 0px 5px;
@@ -748,3 +736,14 @@ a.generate-new-password:hover {
 	padding: 0px 10px;
 	font-size: 11px;
 }
+
+/* logs page fix*/
+table.log-messages tr.log-message:hover {
+	background-color: var(--clp-secondary) !important;
+	cursor: pointer !important;
+}
+
+table.log-messages tr.log-message-active {
+	background-color: var(--clp-secondary) !important;
+}
+
