@@ -1,5 +1,7 @@
 ## cloudpanel-dark
 
+> ⭐ Please don't forget to starring my project
+
 ## Install
 
 ```bash
