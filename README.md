@@ -1,6 +1,6 @@
 ## cloudpanel-dark
 
-> ⭐ Please don't forget to starring my project
+> ⭐ Please don't forget to star my project
 
 ## Install
 
