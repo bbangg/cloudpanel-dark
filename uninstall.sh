@@ -14,3 +14,6 @@ find /home/clp/htdocs/app/files/templates/Frontend/Dashboard/index.html.twig -ty
 
 # removing cache
 rm /home/clp/htdocs/app/files/var/cache/prod/twig/* -rf
+
+# chown files
+chown clp /home/clp/htdocs/app/files/public/assets/css/*
