@@ -1,3 +1,6 @@
 ## cloudpanel-dark
 
-> It will be implemented in next update.
+# Discontinued Repository
+Dark mode feature already implemented. So this repository is useless now.
+
+Thanks for stars :)
